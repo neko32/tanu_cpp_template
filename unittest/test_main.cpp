@@ -6,7 +6,7 @@
 #include <cppunit/BriefTestProgressListener.h>
 #include <cppunit/CompilerOutputter.h>
 #include <cppunit/extensions/HelperMacros.h>
-#include "../src/myneko.h"
+#include "../include/myneko/myneko.h"
 
 using namespace std;
 

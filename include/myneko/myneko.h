@@ -1,4 +1,8 @@
-#include "tobiaslocker/base64.hpp"
+#pragma once
+#ifndef __MYNEKO_H__
+#define __MYNEKO_H__
+
+#include <string>
 
 using namespace std;
 
@@ -14,6 +18,4 @@ public:
     string name_as_b64();
 };
 
-inline string MyNeko::name_as_b64() {
-    return base64::to_base64(m_name);
-}
+#endif
