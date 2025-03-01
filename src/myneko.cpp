@@ -27,7 +27,7 @@ namespace tanu::sample {
         static const int NUM_COL = 2;
         io::CSVReader<NUM_COL> csv_reader(csv_fname);
         csv_reader.read_header(io::ignore_extra_column, "age", "name");
-        vector<MyNeko> v;
+        vector<MyNeko> v(csv_reader.get_file_line());
         string name;
         int age;
         while(csv_reader.read_row(age, name)) {

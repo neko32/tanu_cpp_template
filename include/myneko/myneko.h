@@ -14,6 +14,7 @@ namespace tanu::sample {
         int m_age;
         string m_name;
     public:
+        MyNeko():m_age(0),m_name("NA"){}
         MyNeko(int age, string name):m_age(age), m_name(name){}
         int age() const { return m_age;};
         const string name() const {return m_name;}
