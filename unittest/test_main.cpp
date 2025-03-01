@@ -9,6 +9,7 @@
 #include "../include/myneko/myneko.h"
 
 using namespace std;
+using namespace tanu::sample;
 
 class MyTestSuite: public CppUnit::TestFixture {
     CPPUNIT_TEST_SUITE(MyTestSuite);
